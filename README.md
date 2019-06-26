@@ -29,8 +29,8 @@ You will need access to a Slack workspace and a Firebase Console account to set 
 
 ### Slack Setup
 
-- Sign into slack and navigate to the [Custom Integrations page](https://slack.com/apps/manage/custom-integrations) and select `Outgoing Webhooks`
-  - If you don't see Outgoing Webhooks, check with your slack owner/admins to see if they disabled it.
+- Sign into slack and navigate to the [Outgoing Webhooks page](https://slack.com/apps/A0F7VRG6Q-outgoing-webhooks)
+  - Note: this page is deprecated and might be removed soon
 - Click `Add Configuration` on the left, then `Add Outgoing WebHooks integration`
 - Under `Integration Settings` choose the channel you want this bot to listen in, or look for any trigger words in any channel. 
   - This is different than the Cloud Function trigger words because the Cloud Function looks for the trigger word in any part of the message, and the slack trigger word(s) must be the start of the slack message.
